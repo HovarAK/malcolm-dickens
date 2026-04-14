@@ -228,16 +228,26 @@
 
   <script type="application/ld+json">
     {
+        {% if page.url == '/' %}
+        "@type": "ProfilePage",
+        "mainEntity":
+        {
+            "@type": "Person",
+            "name": "{{ author_name }}",
+            "description": "{{ site.description }}"{% if sameaslinks != blank %},
+            "sameAs": {{ sameaslinks | jsonify }}{% endif %}
+        },
+        {% else %}
         "author":
         {
             "@type": "Person",
             "name": "{{ author_name }}"
         },
-        "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
         "@type": "{% if is_blog_post %}BlogPosting{% else %}WebSite{% endif %}",
+        {% endif %}
+        "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
         "description": "{% if page.description %}{{ page.description }}{% else if site.description %}{{ site.description }}{% endif %}",
-        "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
-        {% if sameaslinks != blank %}
+        "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"{% if page.url != '/' and sameaslinks != blank %},
         "sameAs": {{ sameaslinks | jsonify }},
         {% endif %}
         "name": "{{ author_name }}",

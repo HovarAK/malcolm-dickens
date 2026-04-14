@@ -1,13 +1,41 @@
 ---
-layout: book-shelf
-title: bookshelf
+layout: page
+title: Bookshelf
 permalink: /books/
-nav: false
-collection: books
+description: Public reading shelf for Malcolm Dickens, focused on mathematics, algorithms, machine learning, research practice, and software engineering.
+nav: true
+nav_order: 7
+hide_title: true
 ---
 
-> What an astonishing thing a book is. It's a flat object made from a tree with flexible parts on which are imprinted lots of funny dark squiggles. But one glance at it and you're inside the mind of another person, maybe somebody dead for thousands of years. Across the millennia, an author is speaking clearly and silently inside your head, directly to you. Writing is perhaps the greatest of human inventions, binding together people who never knew each other, citizens of distant epochs. Books break the shackles of time. A book is proof that humans are capable of working magic.
->
-> -- Carl Sagan, Cosmos, Part 11: The Persistence of Memory (1980)
+<section class="page-intro">
+  <p class="landing-eyebrow">Reading life</p>
+  <h1>Bookshelf</h1>
+  <p>
+    This page is intended to become a public reading shelf rather than a performative list. For now,
+    the structure is in place and the annotations are being filled in carefully.
+  </p>
+</section>
 
-## Books that I am reading, have read, or will read
+{% for category in site.data.bookshelf.categories %}
+
+  <section class="bookshelf-section">
+    <div class="section-heading">
+      <div>
+        <h2>{{ category.title }}</h2>
+        <p>{{ category.description }}</p>
+      </div>
+    </div>
+    <div class="bookshelf-grid">
+      {% for book in category.books %}
+        <article class="bookshelf-card">
+          <div class="bookshelf-card__spine">{{ category.title }}</div>
+          <div>
+            <h3>{{ book.title }}</h3>
+            <p>{{ book.note }}</p>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+{% endfor %}

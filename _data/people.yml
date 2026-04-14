@@ -1,0 +1,33 @@
+mentors:
+  - name: Dr. Iván Ojeda-Ruiz
+    role: Research mentor
+    context: Texas State University SIAM-Simons Undergraduate Summer Research Program
+    description: Guided my work on fairness-constrained spectral clustering, numerical stability, and spectral methods.
+    image: false
+    url: ""
+  - name: Dr. Matt Nassar
+    role: Research mentor
+    context: Brown University Leadership Alliance SR-EIP
+    description: Mentored my work on neuroscience decision-making experiments, reproducible MATLAB tooling, and experimental data systems.
+    image: false
+    url: ""
+  - name: Dr. Alva Couch
+    role: Research mentor
+    context: Tufts University DIAMONDS REU
+    description: Supervised my work on LLaMA-based citation generation, evaluation design, and GPU-backed inference workflows.
+    image: false
+    url: ""
+
+communities:
+  - name: Meyerhoff Scholars Program
+    role: Scholar community
+    description: A formative academic community that has shaped my standards for rigor, persistence, and long-horizon scientific growth.
+  - name: SIAM
+    role: Professional membership
+    description: Ongoing source of exposure to applied mathematics, computational research, and scholarly community.
+  - name: NSBE
+    role: Professional community
+    description: Important part of my professional network and growth as an engineer building toward technical leadership.
+  - name: Leadership Alliance
+    role: Research network
+    description: Expanded my research network and presentation experience through the SR-EIP program and national symposium.

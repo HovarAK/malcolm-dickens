@@ -308,6 +308,7 @@ Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarasc
 ## Installing and Deploying
 
 For installation and deployment details please refer to [INSTALL.md](INSTALL.md).
+If you are using a Fedora Toolbox or Podman workflow, see [SETUP_TOOLBOX.md](SETUP_TOOLBOX.md).
 
 ## Customizing
 
@@ -347,6 +348,7 @@ Comprehensive guides for all aspects of your al-folio website:
 
 - **[Quick Start](QUICKSTART.md)** – Get running in 5 minutes
 - **[Installation & Deployment](INSTALL.md)** – Set up your site on GitHub Pages or other platforms
+- **[Toolbox & Podman Setup](SETUP_TOOLBOX.md)** – Run al-folio from a Fedora Toolbox or with Podman
 - **[Customization Guide](CUSTOMIZE.md)** – Personalize your website (CVs, publications, themes, etc.)
 - **[Troubleshooting](TROUBLESHOOTING.md)** – Fix common issues (deployment, build, styling, content)
 - **[FAQ](FAQ.md)** – Frequently asked questions and solutions
