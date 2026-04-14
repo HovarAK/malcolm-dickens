@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Publications, talks, posters, and works in progress by Malcolm Dickens.
+description: Publications, talks, posters, and research activity by Malcolm Dickens.
 nav: true
 nav_order: 3
 hide_title: true
@@ -12,9 +12,10 @@ hide_title: true
   <p class="landing-eyebrow">Research profile</p>
   <h1>Publications and Scholarly Activity</h1>
   <p>
-    This page is designed to scale as formal publications, preprints, talks, posters, and working
-    papers accumulate. At this stage, it emphasizes active research participation and presentation
-    experience without overstating the record.
+    I use this page to document the research record I am building: talks, posters, manuscripts in
+    progress, and eventual formal publications. At this stage, it reflects active research
+    participation and presentation experience without trying to make an early record sound larger than
+    it is.
   </p>
 </section>
 
@@ -40,15 +41,15 @@ hide_title: true
   <div>
     <h2>Bibliography</h2>
     <p>
-      Formal papers, preprints, and citable outputs will appear below. The bibliography is already
-      wired into al-folio's BibTeX tooling so future updates remain clean and maintainable.
+      Formal papers, preprints, and citable outputs will appear here as they become ready. I have kept
+      the bibliography structure in place so the page can grow cleanly as the work matures.
     </p>
   </div>
   <div class="signal-card">
     <h3>Current note</h3>
     <p>
-      Publication titles and links are intentionally omitted until they are finalized. This avoids
-      inventing claims while keeping the structure ready for rapid updates.
+      Titles and links are only added once they are ready to be shared. I would rather keep the record
+      sparse than make provisional work look more final than it is.
     </p>
   </div>
 </section>
@@ -88,8 +89,8 @@ hide_title: true
   <article class="activity-item">
     <h3>Research manuscript in preparation</h3>
     <p>
-      Work emerging from the 2025 SIAM-Simons undergraduate research program is currently in progress.
-      Final title, abstract, and links will be added when appropriate.
+      Work from the 2025 SIAM-Simons undergraduate research program is still being developed. I will
+      add the final title, abstract, and links when the manuscript is ready to be shared.
     </p>
   </article>
 </section>

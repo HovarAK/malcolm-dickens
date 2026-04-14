@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Project portfolio for Malcolm Dickens, spanning software engineering, machine learning systems, and research-facing computational work.
+description: Project portfolio for Malcolm Dickens, covering software engineering, data systems, machine learning, and research-facing computational work.
 nav: true
 nav_order: 4
 hide_title: true
@@ -12,9 +12,9 @@ hide_title: true
   <p class="landing-eyebrow">Portfolio</p>
   <h1>Projects</h1>
   <p>
-    These projects are meant to show reasoning, systems thinking, and quantitative depth. Some are
-    classical software projects. Others come directly out of research environments where implementation,
-    experimentation, and mathematical judgment had to work together.
+    These projects show the kinds of problems I like to work on and the way I tend to approach them.
+    Some are straightforward engineering builds. Others come out of research settings where
+    implementation, experimentation, and mathematical judgment all mattered at once.
   </p>
 </section>
 
@@ -25,7 +25,7 @@ hide_title: true
   <div class="section-heading">
     <div>
       <h2>Featured Projects</h2>
-      <p>High-signal work most relevant to software engineering, data science, and computational research audiences.</p>
+      <p>The strongest cross-section of my current work for engineering, data, and research-oriented audiences.</p>
     </div>
   </div>
   <div class="case-study-grid">
@@ -58,7 +58,7 @@ hide_title: true
   <div class="section-heading">
     <div>
       <h2>All Projects</h2>
-      <p>Each entry opens into a longer case-study-style page with context, implementation details, and tradeoffs.</p>
+      <p>Each project page adds context, implementation details, and the tradeoffs that shaped the final work.</p>
     </div>
   </div>
 

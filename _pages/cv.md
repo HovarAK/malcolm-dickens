@@ -5,11 +5,12 @@ title: CV
 nav: true
 nav_order: 5
 cv_format: rendercv
-description: Online CV for Malcolm Dickens, serving as the public source of truth for education, experience, research, teaching, and technical skills.
+description: Online CV for Malcolm Dickens, summarizing education, research, teaching, engineering experience, and technical background.
 toc:
   sidebar: left
 ---
 
-The online CV below is the public source of truth for my background, experience, research, teaching,
-and technical strengths. I keep it concise, current, and readable on the web so the site remains
-self-contained and easy to maintain.
+This CV is the most compact summary of my academic background, research experience, teaching, and
+technical work. I keep it current and readable on the web so that mentors, recruiters, and
+collaborators can get an accurate picture of my trajectory without having to piece it together across
+multiple documents.

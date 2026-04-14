@@ -1,6 +1,6 @@
 categories:
   - title: Mathematics
-    description: Public reading notes for the mathematics texts that most influenced my thinking are being added.
+    description: This section will hold the mathematics books that most shaped how I reason, prove, and think about structure.
     books:
       - title: TODO
         note: Add a foundational text in analysis, linear algebra, or probability and a short note on why it mattered.
@@ -8,25 +8,25 @@ categories:
         note: Add a book that sharpened mathematical maturity or proof-based reasoning.
 
   - title: Algorithms
-    description: Books here will track the references that shaped how I think about algorithmic tradeoffs and problem structure.
+    description: These are the books that sharpened how I think about algorithmic tradeoffs, complexity, and problem structure.
     books:
       - title: TODO
         note: Add a core algorithms text and a short reflection on what changed in your thinking.
 
   - title: Machine Learning and AI
-    description: This section will collect books and longer-form references that helped connect theory, modeling, and practical ML systems work.
+    description: This shelf is for books and longer references that helped me connect theory, modeling, and practical ML systems work.
     books:
       - title: TODO
         note: Add a machine learning or statistical learning text with a note on when you reach for it.
 
   - title: Research and Scientific Thinking
-    description: The books here should capture how you think about inquiry, experimentation, and long-term research development.
+    description: This section is for books that shaped how I think about inquiry, experimentation, and long-term research growth.
     books:
       - title: TODO
         note: Add a book on scientific thinking, research practice, or intellectual method.
 
   - title: Software Engineering
-    description: This shelf will highlight the books that shaped your sense of systems design, engineering judgment, and maintainable software.
+    description: These are the books that influenced how I think about systems design, engineering judgment, and maintainable software.
     books:
       - title: TODO
         note: Add a software engineering book that changed how you write, review, or structure code.

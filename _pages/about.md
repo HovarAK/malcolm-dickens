@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /
-description: Landing page for Malcolm Dickens, a mathematics and computer science student building toward computational and applied mathematics research while contributing in software engineering and data science.
+description: Personal website of Malcolm Dickens, a mathematics and computer science student working across software engineering, data science, machine learning, and computational mathematics.
 hide_title: true
 ---
 
@@ -11,9 +11,9 @@ hide_title: true
     <p class="landing-eyebrow">Mathematics • Computation • Engineering</p>
     <h1>Malcolm Dickens</h1>
     <p class="landing-lead">
-      Emerging computational and mathematical researcher with strong software and data instincts.
-      I build data-driven systems, study algorithms and machine learning, and am developing toward a
-      PhD trajectory in computational and applied mathematics.
+      I study mathematics and computer science at UMBC, build practical software systems, and write
+      toward a long-term path in computational and applied mathematics research. My work sits where
+      quantitative reasoning, machine learning, and disciplined engineering meet.
     </p>
     <div class="landing-actions">
       <a class="btn btn-sm z-depth-0" href="{{ '/projects/' | relative_url }}">View Projects</a>
@@ -45,17 +45,17 @@ hide_title: true
   <div class="glance-card">
     <span class="glance-label">Current focus</span>
     <strong>Algorithms, ML, and numerical thinking</strong>
-    <p>Research internships, technical writing, and production-minded software work</p>
+    <p>Research experience, technical writing, and software work that rewards careful reasoning</p>
   </div>
   <div class="glance-card">
     <span class="glance-label">Near-term goal</span>
     <strong>SWE and data science opportunities</strong>
-    <p>Especially roles that reward analytical rigor and engineering depth</p>
+    <p>Especially teams that value analytical rigor, sound implementation, and room to grow</p>
   </div>
   <div class="glance-card">
     <span class="glance-label">Long-term direction</span>
     <strong>Computational and applied mathematics research</strong>
-    <p>Preparing for serious research mentorship and eventual PhD applications</p>
+    <p>Building the mathematical maturity, research depth, and judgment needed for doctoral work</p>
   </div>
 </section>
 
@@ -63,16 +63,16 @@ hide_title: true
   <div>
     <h2>Who I Am</h2>
     <p>
-      I am a mathematics and computer science student at the University of Maryland, Baltimore County
-      whose work sits between quantitative reasoning and practical system building. My academic path
-      has pushed me toward algorithmic thinking, numerical methods, stochastic modeling, and machine
-      learning. At the same time, my engineering work has kept me close to implementation details:
-      APIs, databases, front-end and back-end integration, reproducible workflows, and performance.
+      I am a mathematics and computer science student at the University of Maryland, Baltimore County.
+      What keeps me engaged is the overlap between abstract reasoning and implementation: the point
+      where a mathematical idea has to survive contact with data, code, runtime constraints, and
+      real-world ambiguity. That has pulled me toward algorithms, machine learning, numerical methods,
+      and the kinds of engineering problems where structure matters.
     </p>
     <p>
-      That combination matters to me. I want to be the kind of person who can move comfortably between
-      theory, code, and data: someone who can reason carefully about a model, implement it correctly,
-      and evaluate it with discipline.
+      I want to become the kind of researcher and engineer who can move comfortably between theory,
+      code, and evidence: someone who can reason carefully about a model, implement it faithfully, and
+      evaluate it without hand-waving away the inconvenient parts.
     </p>
   </div>
   <div class="signal-card">
@@ -90,11 +90,11 @@ hide_title: true
   <div>
     <h2>Current Focus</h2>
     <p>
-      Right now I am most interested in the bridge between mathematics, computation, machine learning,
-      and software engineering. In research settings, that has meant working on spectral clustering,
-      numerical stability, data collection infrastructure, and GPU-backed model pipelines. In software
-      settings, it has meant building full-stack applications with clear interfaces, reliable data
-      flow, and maintainable implementation choices.
+      Right now I am especially interested in the bridge between mathematics, machine learning, data,
+      and software systems. In research settings, that has meant spectral clustering, numerical
+      stability, experiment infrastructure, and GPU-backed model workflows. In engineering settings, it
+      has meant building full-stack applications with clean interfaces, reliable data flow, and enough
+      structure to remain maintainable as complexity grows.
     </p>
   </div>
   <div>
@@ -116,11 +116,11 @@ hide_title: true
   <div>
     <h2>Quantitative Training and Engineering Practice</h2>
     <p>
-      My mathematical training affects how I build software. I care about assumptions, edge cases,
-      invariants, runtime behavior, and whether a result is robust or merely convenient. That shows up
-      in my work on clustering algorithms and matrix-based methods, but it also shows up in ordinary
-      engineering tasks: authentication flows, data schemas, reproducible scripts, instrumentation, and
-      debugging.
+      My mathematics background shapes how I approach software. I pay attention to assumptions, edge
+      cases, invariants, runtime behavior, and whether a result is genuinely reliable or simply
+      convenient in a narrow setting. That perspective shows up in obvious places like clustering
+      methods and matrix-based computation, but it also shows up in everyday engineering work:
+      authentication flows, schemas, reproducible scripts, instrumentation, and debugging.
     </p>
   </div>
   <div>
@@ -138,14 +138,15 @@ hide_title: true
   <div>
     <h2>What I’m Building Toward</h2>
     <p>
-      Long term, I want to contribute to computational and mathematical research at a high level and
-      prepare for strong PhD applications. I am especially drawn to work that combines formal reasoning
-      with computational experimentation: areas where algorithm design, numerical methods, and machine
-      learning meaningfully interact.
+      Long term, I want to contribute to computational and mathematical research in a serious way and
+      grow into strong PhD applications. I am especially drawn to problems where formal reasoning and
+      computational experimentation inform each other: areas where algorithms, numerical methods, and
+      machine learning genuinely interact rather than being treated as separate tracks.
     </p>
     <p>
-      In the near term, I am also looking for roles where I can contribute as a software engineer or
-      data scientist while continuing to deepen the research side of my profile.
+      In the near term, I am looking for software engineering and data science roles where I can be
+      useful now while continuing to deepen the research side of my profile. The ideal environments are
+      ones that value rigor, mentorship, and technically honest work.
     </p>
   </div>
   <div class="signal-card">
@@ -165,7 +166,7 @@ hide_title: true
   <div class="section-heading">
     <div>
       <h2>Featured Work</h2>
-      <p>Representative projects and research-facing work at the intersection of quantitative thinking and implementation.</p>
+      <p>Selected work that reflects how I approach technical problems: analytically, concretely, and with attention to implementation details.</p>
     </div>
     <a href="{{ '/projects/' | relative_url }}">See all projects</a>
   </div>
@@ -188,8 +189,8 @@ hide_title: true
       <p class="feature-card__eyebrow">Publications</p>
       <h3><a href="{{ '/publications/' | relative_url }}">Scholarly outputs and talks</a></h3>
       <p>
-        The publications page is set up to grow with formal papers, preprints, talks, posters, and
-        works in progress. Current entries emphasize research activity without overstating claims.
+        This section tracks talks, posters, and work in progress as my research record develops. I use
+        it to document real scholarly activity without overstating what is still early.
       </p>
     </article>
   </div>

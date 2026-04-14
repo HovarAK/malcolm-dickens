@@ -1,7 +1,7 @@
 ---
 layout: page
 title: VISA Case Management Portal
-description: Full-stack portal for user onboarding and case-management workflows, built with Next.js, Express, and MySQL.
+description: Full-stack case-management portal built with Next.js, Express, and MySQL, focused on authentication, persistence, and clean application boundaries.
 importance: 2
 featured: true
 category: engineering
@@ -25,7 +25,7 @@ outcome: Delivered a working end-to-end application flow with hashed credentials
 
 ## Motivation
 
-This project was one of the clearest software-engineering examples in my portfolio because it required
+This project is one of the clearest software-engineering examples in my portfolio because it required
 real coordination between interface design, back-end behavior, deployment constraints, and data
 persistence.
 
@@ -45,6 +45,6 @@ appropriate seriousness from the beginning rather than as an afterthought.
 
 ## Outcome
 
-The result was a cleaner understanding of full-stack boundaries and tradeoffs: what belongs in the
-client, what belongs in the API, how to keep state predictable, and how to keep a simple project from
-becoming structurally messy.
+The result was a clearer understanding of full-stack boundaries and tradeoffs: what belongs in the
+client, what belongs in the API, how to keep state predictable, and how to keep a project simple
+without letting it become structurally messy.

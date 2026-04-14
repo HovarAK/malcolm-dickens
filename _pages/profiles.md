@@ -2,7 +2,7 @@
 layout: page
 permalink: /people/
 title: People
-description: Mentors, research communities, and professional networks that shaped Malcolm Dickens.
+description: Mentors, research communities, and professional networks that have shaped Malcolm Dickens's development.
 nav: true
 nav_order: 6
 hide_title: true
@@ -12,8 +12,9 @@ hide_title: true
   <p class="landing-eyebrow">Intellectual community</p>
   <h1>People</h1>
   <p>
-    This page highlights the mentors, research environments, and professional communities that have
-    shaped my development so far. It is intentionally closer to an academic network page than a team page.
+    This page is a way of acknowledging the people and communities that have shaped how I think and
+    work. My development has depended heavily on good mentorship, strong academic communities, and
+    research environments that set a high bar.
   </p>
 </section>
 

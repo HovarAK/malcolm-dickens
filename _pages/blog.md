@@ -2,7 +2,7 @@
 layout: default
 permalink: /blog/
 title: Blog
-description: Technical writing by Malcolm Dickens on computational mathematics, machine learning, algorithms, and software engineering.
+description: Notes and technical writing by Malcolm Dickens on mathematics, machine learning, algorithms, and engineering practice.
 nav: true
 nav_order: 2
 pagination:
@@ -22,8 +22,9 @@ pagination:
     <p class="landing-eyebrow">Technical notebook</p>
     <h1>{{ site.blog_name }}</h1>
     <p class="landing-lead">
-      Essays, research notes, and engineering reflections on computation, learning, and systems.
-      The emphasis here is on careful thinking rather than status updates.
+      I use this space for technical essays, research notes, and working thoughts on computation,
+      learning, and systems. It is less a stream of updates than a record of how I think through
+      problems and what I am learning from them.
     </p>
   </section>
 

@@ -2,7 +2,7 @@
 layout: page
 title: Bookshelf
 permalink: /books/
-description: Public reading shelf for Malcolm Dickens, focused on mathematics, algorithms, machine learning, research practice, and software engineering.
+description: Reading shelf for Malcolm Dickens, centered on mathematics, algorithms, machine learning, research practice, and software engineering.
 nav: true
 nav_order: 7
 hide_title: true
@@ -12,8 +12,9 @@ hide_title: true
   <p class="landing-eyebrow">Reading life</p>
   <h1>Bookshelf</h1>
   <p>
-    This page is intended to become a public reading shelf rather than a performative list. For now,
-    the structure is in place and the annotations are being filled in carefully.
+    I want this shelf to reflect the books that genuinely shape my thinking, not a list assembled for
+    appearance. It is still early, but I am building it slowly enough that the annotations can say
+    something honest about how each book mattered.
   </p>
 </section>
 

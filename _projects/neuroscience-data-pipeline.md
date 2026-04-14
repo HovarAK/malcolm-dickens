@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Neuroscience Decision-Making Data Pipeline
-description: Modular MATLAB tooling for decision-making experiments with reproducible logging, preprocessing, and eye-tracking support.
+description: Modular MATLAB tooling for neuroscience decision-making experiments, built around reproducible logging, preprocessing, and reliable data handoff.
 importance: 3
 featured: false
 category: data
@@ -24,9 +24,9 @@ outcome: Improved the reliability of data collection and created a stronger foun
 
 ## Motivation
 
-At Brown University, the challenge was less about flashy modeling and more about disciplined data
-systems work. If experimental timing drifts or metadata is logged inconsistently, later analysis
-becomes far less trustworthy.
+At Brown University, the work was less about flashy modeling and more about disciplined data systems
+engineering. If timing drifts or metadata is logged inconsistently, the downstream analysis becomes
+much harder to trust.
 
 ## What I Built
 
@@ -37,6 +37,6 @@ becomes far less trustworthy.
 
 ## Why It Matters
 
-This project sharpened an important research lesson for me: good science often depends on small but
-careful engineering choices. Logging, naming, timing, and reproducibility are not peripheral details.
-They are part of the result.
+This project sharpened an important research lesson for me: good science often depends on small,
+careful engineering choices. Logging, naming, timing, and reproducibility are not peripheral details;
+they are part of the result.

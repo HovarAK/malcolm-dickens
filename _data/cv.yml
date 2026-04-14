@@ -1,13 +1,13 @@
 cv:
   name: Malcolm Dickens
-  label: Computational Mathematics and Software Engineering Portfolio
+  label: Mathematics, Computation, and Software Engineering
   email: dickens.malcolm.a@gmail.com
   location: Baltimore, MD
-  website: https://malcolm-dickens.github.io
+  website: https://hovarak.github.io/malcolm-dickens
   summary: >
-    Mathematics and computer science student developing toward research in computational and applied
-    mathematics. My work sits at the intersection of algorithms, machine learning, data systems, and
-    practical software engineering.
+    Mathematics and computer science student at UMBC building toward research in computational and
+    applied mathematics. My work connects algorithms, machine learning, data systems, and practical
+    software engineering, with an emphasis on careful reasoning and reliable implementation.
 
   social_networks:
     - network: GitHub

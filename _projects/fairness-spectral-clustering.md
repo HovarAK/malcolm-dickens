@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Fairness-Constrained Spectral Clustering
-description: Research project on stable spectral clustering under group proportion constraints and ill-conditioned graph structure.
+description: Research on fairness-constrained spectral clustering, with an emphasis on numerical stability, edge cases, and computational reliability.
 importance: 1
 featured: true
 category: research
@@ -24,10 +24,10 @@ outcome: Produced a more stable experimental workflow, identified failure modes,
 
 ## Motivation
 
-This project came out of the SIAM-Simons Undergraduate Summer Research Program at Texas State
-University. The core question was not just whether a fairness-constrained clustering method worked in
-ideal cases, but whether it remained reliable when the underlying matrices became awkward: singular,
-poorly conditioned, or sensitive to graph structure.
+This project grew out of the SIAM-Simons Undergraduate Summer Research Program at Texas State
+University. What interested me most was not whether a fairness-constrained clustering method looked
+good in clean examples, but whether it stayed reliable once the matrices became singular, poorly
+conditioned, or otherwise numerically awkward.
 
 ## What I Built
 
@@ -38,8 +38,8 @@ poorly conditioned, or sensitive to graph structure.
 
 ## Technical Decisions
 
-The most important decision was to treat numerical stability as a first-class engineering problem
-rather than a cleanup step after the algorithm was already "working." That meant:
+The most important decision was to treat numerical stability as a first-class problem rather than a
+cleanup step after the algorithm already seemed to work. That meant:
 
 - designing experiments around failure modes, not only successful runs
 - inspecting how singular graph weight matrices changed downstream behavior
@@ -47,6 +47,6 @@ rather than a cleanup step after the algorithm was already "working." That meant
 
 ## Outcome
 
-The project strengthened my ability to connect theory and implementation. It also clarified how much
-research quality depends on careful computational work: reproducible experiments, explicit assumptions,
-and a willingness to investigate why an algorithm fails instead of smoothing over the result.
+The project strengthened my ability to connect theory and implementation. It also reinforced a lesson
+I care about: research quality depends heavily on careful computational work, explicit assumptions,
+and a willingness to investigate failure instead of smoothing over it.
