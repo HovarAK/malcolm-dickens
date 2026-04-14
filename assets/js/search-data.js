@@ -7,49 +7,49 @@ ninja.data = [{
     title: "About",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/";
+      window.location.href = "/malcolm-dickens/";
     },
   },{id: "nav-blog",
           title: "Blog",
-          description: "Technical writing by Malcolm Dickens on computational mathematics, machine learning, algorithms, and software engineering.",
+          description: "Notes and technical writing by Malcolm Dickens on mathematics, machine learning, algorithms, and engineering practice.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/blog/";
+            window.location.href = "/malcolm-dickens/blog/";
           },
         },{id: "nav-publications",
           title: "Publications",
-          description: "Publications, talks, posters, and works in progress by Malcolm Dickens.",
+          description: "Publications, talks, posters, and research activity by Malcolm Dickens.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/publications/";
+            window.location.href = "/malcolm-dickens/publications/";
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Project portfolio for Malcolm Dickens, spanning software engineering, machine learning systems, and research-facing computational work.",
+          description: "Project portfolio for Malcolm Dickens, covering software engineering, data systems, machine learning, and research-facing computational work.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/malcolm-dickens/projects/";
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Online CV for Malcolm Dickens, serving as the public source of truth for education, experience, research, teaching, and technical skills.",
+          description: "Online CV for Malcolm Dickens, summarizing education, research, teaching, engineering experience, and technical background.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
+            window.location.href = "/malcolm-dickens/cv/";
           },
         },{id: "nav-people",
           title: "People",
-          description: "Mentors, research communities, and professional networks that shaped Malcolm Dickens.",
+          description: "Mentors, research communities, and professional networks that have shaped Malcolm Dickens&#39;s development.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/people/";
+            window.location.href = "/malcolm-dickens/people/";
           },
         },{id: "nav-bookshelf",
           title: "Bookshelf",
-          description: "Public reading shelf for Malcolm Dickens, focused on mathematics, algorithms, machine learning, research practice, and software engineering.",
+          description: "Reading shelf for Malcolm Dickens, centered on mathematics, algorithms, machine learning, research practice, and software engineering.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/books/";
+            window.location.href = "/malcolm-dickens/books/";
           },
         },{id: "post-hpc-iteration-not-just-hpc-scale",
         
@@ -59,7 +59,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/hpc-iteration-and-llms/";
+            window.location.href = "/malcolm-dickens/blog/2026/hpc-iteration-and-llms/";
           
         },
       },{id: "post-notes-on-spectral-clustering-under-imperfect-conditions",
@@ -70,7 +70,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/notes-on-spectral-clustering/";
+            window.location.href = "/malcolm-dickens/blog/2026/notes-on-spectral-clustering/";
           
         },
       },{id: "post-from-mathematical-reasoning-to-systems-work",
@@ -81,14 +81,14 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/from-math-to-systems/";
+            window.location.href = "/malcolm-dickens/blog/2026/from-math-to-systems/";
           
         },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/malcolm-dickens/books/the_godfather/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
@@ -96,40 +96,40 @@ ninja.data = [{
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
+              window.location.href = "/malcolm-dickens/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
           section: "News",},{id: "projects-fairness-constrained-spectral-clustering",
           title: 'Fairness-Constrained Spectral Clustering',
-          description: "Research project on stable spectral clustering under group proportion constraints and ill-conditioned graph structure.",
+          description: "Research on fairness-constrained spectral clustering, with an emphasis on numerical stability, edge cases, and computational reliability.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/fairness-spectral-clustering/";
+              window.location.href = "/malcolm-dickens/projects/fairness-spectral-clustering/";
             },},{id: "projects-llama-hpc-inference-pipeline",
           title: 'LLaMA HPC Inference Pipeline',
-          description: "GPU-accelerated in-context learning pipeline for generating citation syntax from research-paper metadata.",
+          description: "GPU-backed in-context learning pipeline for citation generation, built to make LLM experimentation faster and more systematic.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/llama-hpc-pipeline/";
+              window.location.href = "/malcolm-dickens/projects/llama-hpc-pipeline/";
             },},{id: "projects-neuroscience-decision-making-data-pipeline",
           title: 'Neuroscience Decision-Making Data Pipeline',
-          description: "Modular MATLAB tooling for decision-making experiments with reproducible logging, preprocessing, and eye-tracking support.",
+          description: "Modular MATLAB tooling for neuroscience decision-making experiments, built around reproducible logging, preprocessing, and reliable data handoff.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/neuroscience-data-pipeline/";
+              window.location.href = "/malcolm-dickens/projects/neuroscience-data-pipeline/";
             },},{id: "projects-visa-case-management-portal",
           title: 'VISA Case Management Portal',
-          description: "Full-stack portal for user onboarding and case-management workflows, built with Next.js, Express, and MySQL.",
+          description: "Full-stack case-management portal built with Next.js, Express, and MySQL, focused on authentication, persistence, and clean application boundaries.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/visa-case-management-portal/";
+              window.location.href = "/malcolm-dickens/projects/visa-case-management-portal/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
+              window.location.href = "/malcolm-dickens/teachings/data-science-fundamentals/";
             },},{id: "teachings-introduction-to-machine-learning",
           title: 'Introduction to Machine Learning',
           description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
+              window.location.href = "/malcolm-dickens/teachings/introduction-to-machine-learning/";
             },},{
         id: 'social-email',
         title: 'email',
@@ -156,7 +156,7 @@ ninja.data = [{
         title: 'RSS Feed',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("/malcolm-dickens/feed.xml", "_blank");
         },
       },{
       id: 'light-theme',
